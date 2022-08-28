@@ -7,7 +7,7 @@ public class Task2 {
         int[] arraySorted = sortWithBubble(ARRAY);
 
         for (int i = 0; i < arraySorted.length; i++) {
-            System.out.println(ARRAY[i]);
+            System.out.println(arraySorted[i]);
         }
     }
 
