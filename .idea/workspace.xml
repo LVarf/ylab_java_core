@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bf7872b-1e43-4211-ba71-ffc995e5451e" name="Changes" comment="feat: delete Task1 class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task1/Task1.java" afterDir="false" />
+    <list default="true" id="9bf7872b-1e43-4211-ba71-ffc995e5451e" name="Changes" comment="feat: create Task1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/task2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/task2/Task2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +19,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="task1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,7 +44,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/Леонид/jp/YPGroup/java-filmorate"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -50,13 +56,21 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task1.Task1" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="task2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Task2Test.compare4">
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task2.Task2" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task1.*" />
+          <option name="PATTERN" value="task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,9 +78,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task2Test.compare1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task2" />
+      <option name="MAIN_CLASS_NAME" value="task2.Task2Test" />
+      <option name="METHOD_NAME" value="compare1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2Test.compare2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task2" />
+      <option name="MAIN_CLASS_NAME" value="task2.Task2Test" />
+      <option name="METHOD_NAME" value="compare2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2Test.compare3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task2" />
+      <option name="MAIN_CLASS_NAME" value="task2.Task2Test" />
+      <option name="METHOD_NAME" value="compare3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2Test.compare4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task2" />
+      <option name="MAIN_CLASS_NAME" value="task2.Task2Test" />
+      <option name="METHOD_NAME" value="compare4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task1" />
+        <item itemvalue="JUnit.Task2Test.compare4" />
+        <item itemvalue="JUnit.Task2Test.compare3" />
+        <item itemvalue="JUnit.Task2Test.compare2" />
+        <item itemvalue="JUnit.Task2Test.compare1" />
+        <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -78,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661680048419</updated>
-      <workItem from="1661680049942" duration="3420000" />
+      <workItem from="1661680049942" duration="5226000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create project">
       <created>1661680658428</created>
@@ -101,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661680969991</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: create Task1">
+      <created>1661683498258</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661683498258</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +228,7 @@
     <MESSAGE value="feat: create project" />
     <MESSAGE value="feat: create Task1 class" />
     <MESSAGE value="feat: delete Task1 class" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: delete Task1 class" />
+    <MESSAGE value="feat: create Task1" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create Task1" />
   </component>
 </project>
